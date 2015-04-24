@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="KeepFit.OblCrunch"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KeepFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.9">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/Green+Abstract+Wallpapers+6.jpg"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="380">
+            <TextBlock HorizontalAlignment="Left" Margin="102,33,0,0" TextWrapping="Wrap" Text="Oblique Crunches" VerticalAlignment="Top" FontSize="36" FontFamily="Lucida Calligraphy" RenderTransformOrigin="0.511,0.52" Foreground="#FF435B4B"/>
+            <Image HorizontalAlignment="Left" Height="181" Margin="102,149,0,0" VerticalAlignment="Top" Width="162" Source="Assets/oblique-v-up.jpg"/>
+            <Button x:ConnectionId='1' x:Name="backPg" BorderBrush="Transparent" Content="" HorizontalAlignment="Left" Margin="-11,0,0,0" VerticalAlignment="Top" Width="56"                     >
+                <Button.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="Assets/arrowL.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Rectangle HorizontalAlignment="Left" Height="245" Margin="10,331,0,0" Stroke="Black" VerticalAlignment="Top" Width="380" Opacity="0.5">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCCD3D0" Offset="0.471"/>
+                    <GradientStop Color="#FF399E50" Offset="1"/>
+                    <GradientStop Color="#FF50A683"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Left" Margin="15,362,0,0" TextWrapping="Wrap" Text="Position yourself on the side. Place your hand behind your head, then lift your legs and twist with the hand. Target internal and external obliques." VerticalAlignment="Top" FontSize="18" Height="214" Foreground="#FF435B4B" Width="375"/>
+
+    </Grid>
+</Page>
+

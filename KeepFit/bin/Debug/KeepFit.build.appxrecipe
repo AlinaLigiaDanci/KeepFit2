@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIGIAS-PC</Machine>
+    <WindowsUser>ligia</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c8761922-00ef-4ac1-8689-f529ae62ea75</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\ligia\Desktop\KeepFit\KeepFit\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\KeepFit.exe">
+      <PackagePath>KeepFit.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\abdominal_exercises_russian_twist.gif">
+      <PackagePath>Assets\abdominal_exercises_russian_twist.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\AirBike.gif">
+      <PackagePath>Assets\AirBike.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr4.gif">
+      <PackagePath>Assets\legStr4.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\push-up.gif">
+      <PackagePath>push-up.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\abs.png">
+      <PackagePath>Assets\abs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\arms.png">
+      <PackagePath>Assets\arms.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\arrowL.png">
+      <PackagePath>Assets\arrowL.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\booty.png">
+      <PackagePath>Assets\booty.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\fitness1.png">
+      <PackagePath>Assets\fitness1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\hip-lift.png">
+      <PackagePath>Assets\hip-lift.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\running.png">
+      <PackagePath>Assets\running.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\VolumeIconBlue.png">
+      <PackagePath>Assets\VolumeIconBlue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\sideRisesDBL.png">
+      <PackagePath>sideRisesDBL.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\almonds.jpg">
+      <PackagePath>Assets\almonds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\aMAYzing-Beach-Body-Challenge-1.jpg">
+      <PackagePath>Assets\aMAYzing-Beach-Body-Challenge-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\apple.jpg">
+      <PackagePath>Assets\apple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\armStr1.jpg">
+      <PackagePath>Assets\armStr1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\armStr10.jpg">
+      <PackagePath>Assets\armStr10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\armStr2.jpg">
+      <PackagePath>Assets\armStr2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\armStr3.jpg">
+      <PackagePath>Assets\armStr3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\armStr4.jpg">
+      <PackagePath>Assets\armStr4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\bacon.jpg">
+      <PackagePath>Assets\bacon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\bakepot.jpg">
+      <PackagePath>Assets\bakepot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\bananas.jpg">
+      <PackagePath>Assets\bananas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\biceps-curl.jpg">
+      <PackagePath>Assets\biceps-curl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\breadslice.jpg">
+      <PackagePath>Assets\breadslice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Cereal-with-milk.jpg">
+      <PackagePath>Assets\Cereal-with-milk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\cheese.jpg">
+      <PackagePath>Assets\cheese.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\chicken.jpg">
+      <PackagePath>Assets\chicken.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\cooked-crab.jpg">
+      <PackagePath>Assets\cooked-crab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\curtsy-lunge.jpg">
+      <PackagePath>Assets\curtsy-lunge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\duck.jpg">
+      <PackagePath>Assets\duck.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\dumbellSq.jpg">
+      <PackagePath>Assets\dumbellSq.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\food.jpg">
+      <PackagePath>Assets\food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\fried-egg.JPG">
+      <PackagePath>Assets\fried-egg.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\greaps.jpg">
+      <PackagePath>Assets\greaps.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Green+Abstract+Wallpapers+6.jpg">
+      <PackagePath>Assets\Green+Abstract+Wallpapers+6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\gyms.jpg">
+      <PackagePath>Assets\gyms.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\ham.jpg">
+      <PackagePath>Assets\ham.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\Healthy-Breakfast.jpg">
+      <PackagePath>Assets\Healthy-Breakfast.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\healthy-dinner.jpg">
+      <PackagePath>Assets\healthy-dinner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\healthy-lunch.jpg">
+      <PackagePath>Assets\healthy-lunch.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\healthy-snack-bar.jpg">
+      <PackagePath>Assets\healthy-snack-bar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\healthy-snack.jpg">
+      <PackagePath>Assets\healthy-snack.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\horizontalRow.jpg">
+      <PackagePath>Assets\horizontalRow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\kettlebellSwing.jpg">
+      <PackagePath>Assets\kettlebellSwing.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\leg-raises.jpg">
+      <PackagePath>Assets\leg-raises.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr1.JPG">
+      <PackagePath>Assets\legStr1.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr2.jpg">
+      <PackagePath>Assets\legStr2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr3.jpg">
+      <PackagePath>Assets\legStr3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr5.jpg">
+      <PackagePath>Assets\legStr5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\legStr6.jpg">
+      <PackagePath>Assets\legStr6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\lunges.jpg">
+      <PackagePath>Assets\lunges.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\mainPic.jpg">
+      <PackagePath>Assets\mainPic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\oatmeal.jpg">
+      <PackagePath>Assets\oatmeal.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\oblique-v-up.jpg">
+      <PackagePath>Assets\oblique-v-up.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\orange-juice.jpg">
+      <PackagePath>Assets\orange-juice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\OriginalYogurt.jpg">
+      <PackagePath>Assets\OriginalYogurt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\pancake.jpg">
+      <PackagePath>Assets\pancake.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\pasta.jpg">
+      <PackagePath>Assets\pasta.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\pear.jpg">
+      <PackagePath>Assets\pear.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\pistol_squats.jpg">
+      <PackagePath>Assets\pistol_squats.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\potatoes.jpg">
+      <PackagePath>Assets\potatoes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\rice.jpg">
+      <PackagePath>Assets\rice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\rice_cakes.jpg">
+      <PackagePath>Assets\rice_cakes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\rost lamb.jpg">
+      <PackagePath>Assets\rost lamb.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\salad.jpg">
+      <PackagePath>Assets\salad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\salmon.jpg">
+      <PackagePath>Assets\salmon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\sandwich.jpg">
+      <PackagePath>Assets\sandwich.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\sausage.jpg">
+      <PackagePath>Assets\sausage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\scone.jpg">
+      <PackagePath>Assets\scone.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\sideLunges.jpg">
+      <PackagePath>Assets\sideLunges.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\single-leg.jpg">
+      <PackagePath>Assets\single-leg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\summerChallenge.jpg">
+      <PackagePath>Assets\summerChallenge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\ThighTrimmer.jpg">
+      <PackagePath>Assets\ThighTrimmer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\turkey.jpg">
+      <PackagePath>Assets\turkey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\vegetables.jpg">
+      <PackagePath>Assets\vegetables.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\walkonToe.jpg">
+      <PackagePath>Assets\walkonToe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\extension.jpg">
+      <PackagePath>Assets\extension.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\wrap.jpg">
+      <PackagePath>Assets\wrap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\plankwalk.bmp">
+      <PackagePath>Assets\plankwalk.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\Assets\See_You_Again__In_Memory_of_PAUL_WALKER__Furious_7.mp3">
+      <PackagePath>Assets\See_You_Again__In_Memory_of_PAUL_WALKER__Furious_7.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\AbsExe.xbf">
+      <PackagePath>AbsExe.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\ArmsExe.xbf">
+      <PackagePath>ArmsExe.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\bicepCurl.xbf">
+      <PackagePath>bicepCurl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\BootyExe.xbf">
+      <PackagePath>BootyExe.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Breakfast.xbf">
+      <PackagePath>Breakfast.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\CCrunch.xbf">
+      <PackagePath>CCrunch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Challenges.xbf">
+      <PackagePath>Challenges.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\CurtsyLunges.xbf">
+      <PackagePath>CurtsyLunges.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Dinner.xbf">
+      <PackagePath>Dinner.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\DumbellSquats.xbf">
+      <PackagePath>DumbellSquats.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\exercises.xbf">
+      <PackagePath>exercises.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\ExtensiveLunges.xbf">
+      <PackagePath>ExtensiveLunges.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Extention.xbf">
+      <PackagePath>Extention.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\HipLeg.xbf">
+      <PackagePath>HipLeg.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\horisontalRow.xbf">
+      <PackagePath>horisontalRow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\KettlebellSwing.xbf">
+      <PackagePath>KettlebellSwing.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\LegCR.xbf">
+      <PackagePath>LegCR.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\LegsExe.xbf">
+      <PackagePath>LegsExe.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Lunch.xbf">
+      <PackagePath>Lunch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Map.xbf">
+      <PackagePath>Map.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\OblCrunch.xbf">
+      <PackagePath>OblCrunch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\pistolSqt.xbf">
+      <PackagePath>pistolSqt.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\PlankPunch.xbf">
+      <PackagePath>PlankPunch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\PushUp.xbf">
+      <PackagePath>PushUp.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\RTwist.xbf">
+      <PackagePath>RTwist.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\sideRise.xbf">
+      <PackagePath>sideRise.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\SingleLegBridge.xbf">
+      <PackagePath>SingleLegBridge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Snacks.xbf">
+      <PackagePath>Snacks.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\Streches.xbf">
+      <PackagePath>Streches.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\StrPag.xbf">
+      <PackagePath>StrPag.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\CalorieCount.xbf">
+      <PackagePath>CalorieCount.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\WalkOnToes.xbf">
+      <PackagePath>WalkOnToes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\KeepFit.xr.xml">
+      <PackagePath>KeepFit.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ligia\Desktop\KeepFit\KeepFit\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

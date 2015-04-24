@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="KeepFit.StrPag"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KeepFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.9">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/Green+Abstract+Wallpapers+6.jpg"/>
+        </Grid.Background>
+        <ListBox HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="108">
+            <Image Tag="img1" x:Name="ex1" Height="90" Width="92" Source="Assets/armStr1.jpg" Tapped="img1_tapped"/>
+            <Image Tag="img2" x:Name="ex2" Height="90" Width="92" Source="Assets/armStr2.jpg" Tapped="img2_tapped"/>
+            <Image Tag="img3" x:Name="ex3" Height="90" Width="92" Source="Assets/armStr3.jpg" Tapped="img3_tapped"/>
+            <Image Tag="img4" x:Name="ex4" Height="90" Width="92" Source="Assets/armStr4.jpg" Tapped="img4_tapped"/>
+            <Image Tag="img5" x:Name="ex5" Height="90" Width="92" Source="Assets/legStr1.JPG" Tapped="img5_tapped"/>
+            <Image Tag="img6" x:Name="ex6" Height="90" Width="92" Source="Assets/legStr2.jpg" Tapped="img6_tapped"/>
+            <Image Tag="img7" x:Name="ex7" Height="90" Width="92" Source="Assets/legStr3.jpg" Tapped="img7_tapped"/>
+            <Image Tag="img8" x:Name="ex8" Height="90" Width="92" Source="Assets/legStr4.gif" Tapped="img8_tapped"/>
+            <Image Tag="img9" x:Name="ex9" Height="90" Width="92" Source="Assets/legStr5.jpg" Tapped="img9_tapped"/>
+            <Image Tag="img10" x:Name="ex10" Height="90" Width="92" Source="Assets/legStr6.jpg" Tapped="img10_tapped"/>
+            <Image Tag="img11" x:Name="ex11" Height="90" Width="92" Source="Assets/armStr10.jpg" Tapped="img11_tapped"/>
+        </ListBox>
+        <Image Name="displayImg" Tag="displayImg" HorizontalAlignment="Left" Height="254" Margin="142,333,0,0" VerticalAlignment="Top" Width="215"/>
+        <Button x:Name="backPg" BorderBrush="Transparent" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Click="backPg_Click" Margin="281,582,0,0">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/arrowL.png"/>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="txtblock1" HorizontalAlignment="Left" Margin="132,108,0,0" TextWrapping="Wrap" Text="-These first three streches will help relax your arm muscles to allow your workouts to really work." VerticalAlignment="Top" Height="60" Width="249" Foreground="#FF575555" FontSize="16" Visibility="Collapsed"/>
+        <TextBlock x:Name="txtblock2" HorizontalAlignment="Left" Margin="132,202,0,0" TextWrapping="Wrap" Text="-The next part of the streches will concentrate on your legs and getting them prepared for your chosen exercises." VerticalAlignment="Top" Height="86" Width="249" Foreground="#FF575555" FontSize="16" Visibility="Collapsed"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,47,0,0" TextWrapping="Wrap" Text="Stretches" VerticalAlignment="Top" Height="30" Width="121" Foreground="#FF575555" FontSize="24" FontFamily="Lucida Calligraphy"/>
+    </Grid>
+</Page>

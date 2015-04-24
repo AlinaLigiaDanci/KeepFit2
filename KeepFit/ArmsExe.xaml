@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="KeepFit.ArmsExe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KeepFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.9" >
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/Green+Abstract+Wallpapers+6.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ARMS WORKOUT" VerticalAlignment="Top" Height="35" Width="288" FontSize="24" FontFamily="Lucida Calligraphy" Foreground="#FF337E5C" FontWeight="Bold" Margin="73,40,0,0"/>
+        <Image HorizontalAlignment="Left" Height="180" Margin="223,75,0,0" VerticalAlignment="Top" Width="167" Source="Assets/arms.png"/>
+        <ListView HorizontalAlignment="Left" Height="493" Margin="10,136,0,0" VerticalAlignment="Top" Width="380" >
+            <Image Height="100" Width="130" Source="sideRisesDBL.png"/>
+            <Button x:Name="sideRisesDBL" BorderBrush="Transparent" Content="Side raise with dumbbells" Height="33" Width="298" Foreground="#FF211414" FontFamily="Lucida Calligraphy" Click="sideRisesDBL_Click" />
+            <Image  HorizontalAlignment="Center" Height="100" Width="100" Source="push-up.gif" RenderTransformOrigin="1.833,0.475"/>
+            <Button x:Name="pushUp" BorderBrush="Transparent" Content="Triceps push-up" Width="274" Foreground="#FF211414" FontFamily="Lucida Calligraphy" Click="pushUp_Click"  />
+            <Image Height="100" Width="100" Source="extension.jpg"/>
+            <Button x:Name="OHExtension" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Overhead extension" Width="271" Foreground="#FF211414" Click="OHExtension_Click" />
+            <Image Height="100" Width="100" Source="Assets/biceps-curl.jpg"/>
+            <Button x:Name="BicepsCurl" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Biceps curl" Width="271" Foreground="#FF211414" Click="BicepsCurl_Click"  />
+            <Image  Height="100" Width="100" Source="Assets/horizontalRow.jpg"/>
+            <Button x:Name="HorizontalRow" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Horizontal row" Width="271" Foreground="#FF211414"  Click="HorizontalRow_Click" />
+        </ListView>
+        <Button x:Name="backPg" BorderBrush="Transparent" Content="" HorizontalAlignment="Left" Margin="-11,0,0,0" VerticalAlignment="Top" Width="56" Click="backPg_Click"  >
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/arrowL.png"/>
+            </Button.Background>
+        </Button>
+
+
+
+    </Grid>
+</Page>

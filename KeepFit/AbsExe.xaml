@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="KeepFit.AbsExe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KeepFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.9" >
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/Green+Abstract+Wallpapers+6.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="AB WORKOUT" VerticalAlignment="Top" Height="35" Width="229" FontSize="24" FontFamily="Lucida Calligraphy" Foreground="#FF337E5C" FontWeight="Bold" Margin="98,40,0,0"/>
+        <Image HorizontalAlignment="Left" Height="195" Margin="223,62,0,0" VerticalAlignment="Top" Width="167" Source="Assets/abs.png"/>
+        <ListView HorizontalAlignment="Left" Height="493" Margin="10,136,0,0" VerticalAlignment="Top" Width="380" >
+            <Image Height="100" Width="130" Source="Assets/oblique-v-up.jpg"/>
+            <Button x:Name="oblCrunch" BorderBrush="Transparent" Content="Oblique sit-up with crunch" Height="33" Width="298" Foreground="#FF211414" FontFamily="Lucida Calligraphy" Click="oblCrunch_Click"/>
+            <Image  HorizontalAlignment="Center" Height="100" Width="100" Source="Assets/plankwalk.bmp" RenderTransformOrigin="1.833,0.475"/>
+            <Button x:Name="plankPunch" BorderBrush="Transparent" Content="Plank punches" Width="274" Foreground="#FF211414" FontFamily="Lucida Calligraphy" Click="plankPunch_Click"/>
+            <Image Height="100" Width="100" Source="Assets/abdominal_exercises_russian_twist.gif"/>
+            <Button x:Name="RomanTwist" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Roman Twist" Width="271" Foreground="#FF211414" Click="RomanTwist_Click"/>
+            <Image Height="100" Width="100" Source="Assets/AirBike.gif"/>
+            <Button x:Name="CycleCrunch" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Cycle crunch" Width="271" Foreground="#FF211414" Click="CycleCrunch_Click" />
+            <Image  Height="100" Width="100" Source="Assets/leg-raises.jpg"/>
+            <Button x:Name="LegCrunch" FontFamily="Lucida Calligraphy" BorderBrush="Transparent" Content="Vertical leg crunch" Width="271" Foreground="#FF211414" Click="LegCrunch_Click" />
+        </ListView>
+        <Button x:Name="backPg" BorderBrush="Transparent" Content="" HorizontalAlignment="Left" Margin="-11,0,0,0" VerticalAlignment="Top" Width="56" Click="backPg_Click">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/arrowL.png"/>
+            </Button.Background>
+        </Button>
+
+
+
+    </Grid>
+
+
+</Page>

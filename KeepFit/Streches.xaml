@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="KeepFit.Streches"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KeepFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.9">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/Green+Abstract+Wallpapers+6.jpg"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="380">
+            <TextBlock HorizontalAlignment="Left" Margin="101,48,0,0" TextWrapping="Wrap" Text="Why Stretch" VerticalAlignment="Top" FontSize="24" FontFamily="Lucida Calligraphy" Foreground="#FF686868"/>
+            <Image HorizontalAlignment="Left" Height="191" Margin="60,124,0,0" VerticalAlignment="Top" Width="249" Source="Assets/mainPic.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="119,91,0,0" TextWrapping="Wrap" Text="11 Poses/Stretches" VerticalAlignment="Top" Height="33" Width="120" Foreground="#FF2B7E7A" FontSize="14"/>
+            <TextBlock HorizontalAlignment="Left" Margin="60,305,0,0" TextWrapping="Wrap" Text="Click Image to see stretches" VerticalAlignment="Top" Foreground="#FFFFFBFB"/>
+            <Button BorderBrush="Transparent" HorizontalAlignment="Left" Margin="48,117,0,0" VerticalAlignment="Top" Height="197" Width="261" Click="Button_Click"/>
+            <Button x:Name="backPg" BorderBrush="Transparent" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Click="backPg_Click">
+                <Button.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="Assets/arrowL.png"/>
+                </Button.Background>
+            </Button>
+            <TextBlock HorizontalAlignment="Left" Margin="10,344,0,0" TextWrapping="Wrap" Text="Stretching is a form of physical exercise in which a specific muscle or tendon (or muscle group) is deliberately flexed or stretched in order to improve the muscle's felt elasticity and achieve comfortable muscle tone. The result is a feeling of increased muscle control, flexibility, and range of motion" VerticalAlignment="Top" Height="223" Width="360" FontSize="18" Foreground="#FF575555"/>
+        </Grid>
+
+    </Grid>
+</Page>

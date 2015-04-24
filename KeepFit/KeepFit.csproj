@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F09B03B4-A342-424D-9F7F-551161A76512}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KeepFit</RootNamespace>
+    <AssemblyName>KeepFit</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsExe.xaml.cs">
+      <DependentUpon>AbsExe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ArmsExe.xaml.cs">
+      <DependentUpon>ArmsExe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bicepCurl.xaml.cs">
+      <DependentUpon>bicepCurl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BootyExe.xaml.cs">
+      <DependentUpon>BootyExe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Breakfast.xaml.cs">
+      <DependentUpon>Breakfast.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CCrunch.xaml.cs">
+      <DependentUpon>CCrunch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Challenges.xaml.cs">
+      <DependentUpon>Challenges.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CurtsyLunges.xaml.cs">
+      <DependentUpon>CurtsyLunges.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dinner.xaml.cs">
+      <DependentUpon>Dinner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DumbellSquats.xaml.cs">
+      <DependentUpon>DumbellSquats.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="exercises.xaml.cs">
+      <DependentUpon>exercises.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensiveLunges.xaml.cs">
+      <DependentUpon>ExtensiveLunges.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extention.xaml.cs">
+      <DependentUpon>Extention.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HipLeg.xaml.cs">
+      <DependentUpon>HipLeg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="horisontalRow.xaml.cs">
+      <DependentUpon>horisontalRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KettlebellSwing.xaml.cs">
+      <DependentUpon>KettlebellSwing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LegCR.xaml.cs">
+      <DependentUpon>LegCR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LegsExe.xaml.cs">
+      <DependentUpon>LegsExe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lunch.xaml.cs">
+      <DependentUpon>Lunch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map.xaml.cs">
+      <DependentUpon>Map.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OblCrunch.xaml.cs">
+      <DependentUpon>OblCrunch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pistolSqt.xaml.cs">
+      <DependentUpon>pistolSqt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlankPunch.xaml.cs">
+      <DependentUpon>PlankPunch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PushUp.xaml.cs">
+      <DependentUpon>PushUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RTwist.xaml.cs">
+      <DependentUpon>RTwist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sideRise.xaml.cs">
+      <DependentUpon>sideRise.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SingleLegBridge.xaml.cs">
+      <DependentUpon>SingleLegBridge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Snacks.xaml.cs">
+      <DependentUpon>Snacks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Streches.xaml.cs">
+      <DependentUpon>Streches.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StrPag.xaml.cs">
+      <DependentUpon>StrPag.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalorieCount.xaml.cs">
+      <DependentUpon>CalorieCount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WalkOnToes.xaml.cs">
+      <DependentUpon>WalkOnToes.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\abdominal_exercises_russian_twist.gif" />
+    <Content Include="Assets\abs.png" />
+    <Content Include="Assets\AirBike.gif" />
+    <Content Include="Assets\almonds.jpg" />
+    <Content Include="Assets\aMAYzing-Beach-Body-Challenge-1.jpg" />
+    <Content Include="Assets\apple.jpg" />
+    <Content Include="Assets\arms.png" />
+    <Content Include="Assets\armStr1.jpg" />
+    <Content Include="Assets\armStr10.jpg" />
+    <Content Include="Assets\armStr2.jpg" />
+    <Content Include="Assets\armStr3.jpg" />
+    <Content Include="Assets\armStr4.jpg" />
+    <Content Include="Assets\arrowL.png" />
+    <Content Include="Assets\bacon.jpg" />
+    <Content Include="Assets\bakepot.jpg" />
+    <Content Include="Assets\bananas.jpg" />
+    <Content Include="Assets\biceps-curl.jpg" />
+    <Content Include="Assets\booty.png" />
+    <Content Include="Assets\breadslice.jpg" />
+    <Content Include="Assets\Cereal-with-milk.jpg" />
+    <Content Include="Assets\cheese.jpg" />
+    <Content Include="Assets\chicken.jpg" />
+    <Content Include="Assets\cooked-crab.jpg" />
+    <Content Include="Assets\curtsy-lunge.jpg" />
+    <Content Include="Assets\duck.jpg" />
+    <Content Include="Assets\dumbellSq.jpg" />
+    <Content Include="Assets\fitness1.png" />
+    <Content Include="Assets\food.jpg" />
+    <Content Include="Assets\fried-egg.JPG" />
+    <Content Include="Assets\greaps.jpg" />
+    <Content Include="Assets\Green+Abstract+Wallpapers+6.jpg" />
+    <Content Include="Assets\gyms.jpg" />
+    <Content Include="Assets\ham.jpg" />
+    <Content Include="Assets\Healthy-Breakfast.jpg" />
+    <Content Include="Assets\healthy-dinner.jpg" />
+    <Content Include="Assets\healthy-lunch.jpg" />
+    <Content Include="Assets\healthy-snack-bar.jpg" />
+    <Content Include="Assets\healthy-snack.jpg" />
+    <Content Include="Assets\hip-lift.png" />
+    <Content Include="Assets\horizontalRow.jpg" />
+    <Content Include="Assets\kettlebellSwing.jpg" />
+    <Content Include="Assets\leg-raises.jpg" />
+    <Content Include="Assets\legStr1.JPG" />
+    <Content Include="Assets\legStr2.jpg" />
+    <Content Include="Assets\legStr3.jpg" />
+    <Content Include="Assets\legStr4.gif" />
+    <Content Include="Assets\legStr5.jpg" />
+    <Content Include="Assets\legStr6.jpg" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\lunges.jpg" />
+    <Content Include="Assets\mainPic.jpg" />
+    <Content Include="Assets\oatmeal.jpg" />
+    <Content Include="Assets\oblique-v-up.jpg" />
+    <Content Include="Assets\orange-juice.jpg" />
+    <Content Include="Assets\OriginalYogurt.jpg" />
+    <Content Include="Assets\pancake.jpg" />
+    <Content Include="Assets\pasta.jpg" />
+    <Content Include="Assets\pear.jpg" />
+    <Content Include="Assets\pistol_squats.jpg" />
+    <Content Include="Assets\plankwalk.bmp" />
+    <Content Include="Assets\potatoes.jpg" />
+    <Content Include="Assets\rice.jpg" />
+    <Content Include="Assets\rice_cakes.jpg" />
+    <Content Include="Assets\rost lamb.jpg" />
+    <Content Include="Assets\running.png" />
+    <Content Include="Assets\salad.jpg" />
+    <Content Include="Assets\salmon.jpg" />
+    <Content Include="Assets\sandwich.jpg" />
+    <Content Include="Assets\sausage.jpg" />
+    <Content Include="Assets\scone.jpg" />
+    <Content Include="Assets\See_You_Again__In_Memory_of_PAUL_WALKER__Furious_7.mp3" />
+    <Content Include="Assets\sideLunges.jpg" />
+    <Content Include="Assets\single-leg.jpg" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\summerChallenge.jpg" />
+    <Content Include="Assets\ThighTrimmer.jpg" />
+    <Content Include="Assets\turkey.jpg" />
+    <Content Include="Assets\vegetables.jpg" />
+    <Content Include="Assets\VolumeIconBlue.png" />
+    <Content Include="Assets\walkonToe.jpg" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="Assets\extension.jpg" />
+    <Content Include="Assets\wrap.jpg" />
+    <Content Include="push-up.gif" />
+    <Content Include="sideRisesDBL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AbsExe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ArmsExe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="bicepCurl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BootyExe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Breakfast.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CCrunch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Challenges.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CurtsyLunges.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dinner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DumbellSquats.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="exercises.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExtensiveLunges.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Extention.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HipLeg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="horisontalRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KettlebellSwing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LegCR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LegsExe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lunch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Map.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OblCrunch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pistolSqt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlankPunch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PushUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RTwist.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sideRise.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SingleLegBridge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Snacks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Streches.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StrPag.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CalorieCount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WalkOnToes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
